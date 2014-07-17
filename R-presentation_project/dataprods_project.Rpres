@@ -1,7 +1,7 @@
 Developing Data Products - Course Project - Fuel consumption calculator
 ========================================================
 author: Alexandre Gadebski
-date: July 16, 2014
+date: July 17, 2014
 
 Presentation
 ========================================================
@@ -29,8 +29,8 @@ Note: the code is presented without Shiny reactive tags.
 
 Building a linear model - Observations
 ========================================================
-- As we see, weight is the most significat parameter, with the number of cylinders
-being moderately significant (p-value 9%) and horse power being insignificant (p-value 14%).
+- As we see, weight is the most significat parameter (p-value is close to 0), with the number of cylinders
+being moderately significant (p-value = 0.098) and horse power being insignificant (p-value = 0.14).
 
 - We still keep the numbers of cylinders and horse power in our model for the possible
 effect of collinearity.
